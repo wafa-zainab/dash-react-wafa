@@ -1,16 +1,15 @@
-<<<<<<< HEAD
-# React + Vite
+# React Dashboard with shadcn/ui
+A modern, responsive React dashboard UI built with Vite, React, Tailwind CSS, and shadcn/ui component library.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
+- Responsive sidebar navigation using shadcn/ui components
+- Data tables with sorting and pagination built with shadcn/ui primitives
+- Custom reusable UI components (buttons, cards, inputs, tabs) from shadcn/ui
+- Profile page layout integrated with shadcn/ui design system
+- Built with Vite for fast development and optimized builds
+- Tailwind CSS for utility-first styling alongside shadcn/ui
+- Accessible and customizable UI components powered by Radix UI via shadcn/ui
 
-Currently, two official plugins are available:
+## Demo
+https://dashboard-react-wafa.netlify.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Dashboard-UI
->>>>>>> 41b111b383c9a276f8f09c209a6b3e421ea8f079
