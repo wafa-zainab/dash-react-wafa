@@ -1,12 +1,22 @@
-// src/components/ui/checkbox.js
-import React from "react";
+import React, { useEffect, useRef } from "react";
 
-export function Checkbox({ className = "", ...props }) {
+export function Checkbox({ checked, indeterminate = false, onCheckedChange, ...props }) {
+  const ref = useRef();
+
+  useEffect(() => {
+    if (ref.current) {
+      ref.current.indeterminate = indeterminate;
+    }
+  }, [indeterminate]);
+
   return (
     <input
       type="checkbox"
-      className={`h-4 w-4 accent-blue-600 ${className}`}
+      ref={ref}
+      checked={checked}
+      onChange={(e) => onCheckedChange && onCheckedChange(e.target.checked)}
       {...props}
+      className="cursor-pointer"
     />
   );
 }
